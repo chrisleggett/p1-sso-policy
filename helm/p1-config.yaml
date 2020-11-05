@@ -30,6 +30,7 @@ pingfederate-admin:
   chartEnabled: true
   envs:
     PF_LOG_LEVEL: DEBUG
+    PING_IDENITY_PASSWORD: 2FederateM0re
     SERVER_PROFILE_URL: "https://github.com/chrisleggett/p1-sso-policy.git"
     SERVER_PROFILE_PATH: "server-profile/pf-sso-policy-lite"
     ###
@@ -50,7 +51,7 @@ pingfederate-admin:
     ###
     # IOVATION Adapter
     ###
-    IO_SUB_ID: "\"1032102\""
+    #IO_SUB_ID: "\"1032102\""
     IO_SUB_ACCOUNT: OLTP
     IO_SUB_PASSCODE: OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4xLjIuMCJ9..MdAIKWuKDiQO9XVVQCXUzw.GgUbSBfchJsousfD96t-kA.k1Sy3soAH8FMSAubmQHfDw
     ###
