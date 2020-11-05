@@ -230,7 +230,7 @@
                 },
                 {
                   "name": "Client Secret",
-                  "encryptedValue": "${P1_DS_CLIENT_SECRET}"
+                  "encryptedValue": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4xLjIuMCJ9..Upv6fecU_BrSS5c6AMK4fw.G3xm4JWSZeyhVp6H32B4g9vBRGluHyvqaV2aLAyuTyR7v-mS5SZUPekhooH-Xi3MkRTaK9-wV8vHXPRggOYmYqdOieJSbankLxz4RA39GGA.d5xS7bg9A9QxlhuFmyszXA"
                 },
                 {
                   "name": "PingOne API Service",
