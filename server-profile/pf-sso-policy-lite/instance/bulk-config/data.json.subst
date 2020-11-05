@@ -226,11 +226,11 @@
                 },
                 {
                   "name": "Client ID",
-                  "value": ${P1_DS_CLIENT_ID}
+                  "value": "${P1_DS_CLIENT_ID}"
                 },
                 {
                   "name": "Client Secret",
-                  "encryptedValue": ${P1_DS_CLIENT_SECRET}
+                  "encryptedValue": "${P1_DS_CLIENT_SECRET}"
                 },
                 {
                   "name": "PingOne API Service",
@@ -336,8 +336,8 @@
               "enableIdpDiscovery": true
             },
             "federationInfo": {
-              "baseUrl": ${PF_BASE_URL},
-              "saml2EntityId": ${PF_SAML2_ENTITY_ID},
+              "baseUrl": "${PF_BASE_URL}",
+              "saml2EntityId": "${PF_SAML2_ENTITY_ID}",
               "saml1xIssuerId": "",
               "saml1xSourceId": "",
               "wsfedRealm": ""
@@ -1138,15 +1138,15 @@
               "fields": [
                 {
                   "name": "Subscriber ID",
-                  "value": ${IO_SUB_ID}
+                  "value": "${IO_SUB_ID}"
                 },
                 {
                   "name": "Subscriber Account",
-                  "value": ${IO_SUB_ACCOUNT}
+                  "value": "${IO_SUB_ACCOUNT}"
                 },
                 {
                   "name": "Subscriber Passcode",
-                  "encryptedValue": ${IO_SUB_PASSCODE}
+                  "encryptedValue": "${IO_SUB_PASSCODE}"
                 },
                 {
                   "name": "iovation Integration Point",
@@ -1255,7 +1255,7 @@
               "fields": [
                 {
                   "name": "PingID Properties",
-                  "value": ${PID_PROPERTIES}
+                  "value": "${PID_PROPERTIES}"
                 },
                 {
                   "name": "LDAP Data source",
