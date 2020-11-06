@@ -30,7 +30,7 @@ pingfederate-admin:
   chartEnabled: true
   envs:
     PF_LOG_LEVEL: DEBUG
-    PING_IDENITY_PASSWORD: 2FederateM0re
+    PING_IDENTITY_PASSWORD: 2Federate
     SERVER_PROFILE_URL: "https://github.com/chrisleggett/p1-sso-policy.git"
     SERVER_PROFILE_PATH: "server-profile/pf-sso-policy-lite"
     ###
