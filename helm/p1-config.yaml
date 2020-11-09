@@ -53,7 +53,7 @@ pingfederate-admin:
     ###
     # IOVATION Adapter
     ###
-    #IO_SUB_ID: "\"1032102\""
+    IO_SUB_ID: "\"1032102\""
     IO_SUB_ACCOUNT: OLTP
     IO_SUB_PASSCODE: OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4xLjIuMCJ9..MdAIKWuKDiQO9XVVQCXUzw.GgUbSBfchJsousfD96t-kA.k1Sy3soAH8FMSAubmQHfDw
     ###
