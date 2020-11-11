@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "pfVersion": "10.1.2.0"
+  },
+  "operations": [
+    {
+      "resourceType": "/configStore",
+      "operationType": "DELETE",
+      "subResource": "http-request-parameter-validation",
+      "itemIds": [
+        "client_id"
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "org.sourceid.common.ExpressionManager",
+      "items": [
+        {
+          "id": "evaluateExpressions",
+          "type": "STRING",
+          "stringValue": ""
+        }
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "org.sourceid.oauth20.domain.ClientManagerXmlFileImpl",
+      "items": [
+        {
+          "id": "MigrationComplete8.4",
+          "type": "STRING",
+          "stringValue": "true"
+        }
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "org.sourceid.saml20.domain.mgmt.AdminUserManager",
+      "items": [
+        {
+          "id": "isEaRoleUpdated",
+          "type": "STRING",
+          "stringValue": "true"
+        }
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "org.sourceid.saml20.domain.mgmt.impl.PartnerCertMigrator",
+      "items": [
+        {
+          "id": "partner.cert.migration.complete",
+          "type": "STRING",
+          "stringValue": "true"
+        }
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "org.sourceid.saml20.metadata.partner.impl.MetadataDirectoryHybridDbImpl",
+      "items": [
+        {
+          "id": "MigrationComplete8.4",
+          "type": "STRING",
+          "stringValue": "true"
+        }
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "org.sourceid.saml20.service.impl.PseudonymServiceSha1Impl",
+      "items": [
+        {
+          "id": "entropy",
+          "type": "STRING",
+          "stringValue": "VXBlGWDvv70="
+        }
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "DELETE",
+      "subResource": "org.sourceid.saml20.service.session.StoredSessionServiceImpl",
+      "itemIds": [
+        "EmptySessionReplayRetentionSecs"
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "DELETE",
+      "subResource": "org.sourceid.servlet.filter.SimultaneousAuthnRequestCheckingFilter",
+      "itemIds": [
+        "browser-id-cookie-httponly-flag",
+        "browser-id-cookie-secure-flag"
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "DELETE",
+      "subResource": "p1-admin-service-config",
+      "itemIds": [
+        "AddApplicationUrl"
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "DELETE",
+      "subResource": "persistent-session-cookie-config",
+      "itemIds": [
+        "cookie-format"
+      ]
+    },
+    {
+      "resourceType": "/configStore",
+      "operationType": "SAVE",
+      "subResource": "response-header-admin-config",
+      "items": [
+        {
+          "id": "X-Frame-Options",
+          "type": "MAP",
+          "mapValue": {
+            "include-patterns": "*",
+            "value": "DENY"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/license/agreement",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "licenseAgreementUrl": "https://localhost:9999/pf-admin-api/license-agreement",
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "resourceType": "/keyPairs/sslServer",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "id": "vtcm75en83g6v1r87ytm7lihi",
+          "fileData": "MIIJ7wIBAzCCCagGCSqGSIb3DQEHAaCCCZkEggmVMIIJkTCCBWUGCSqGSIb3DQEHAaCCBVYEggVSMIIFTjCCBUoGCyqGSIb3DQEMCgECoIIE-zCCBPcwKQYKKoZIhvcNAQwBAzAbBBQS-DwmLADPblUuH918j6_QRHO36QIDAMNQBIIEyH593fs30SEL4ah01HQDww2I9MxgKMe0PcwB7gtdB0K_SDdPg9abTUdabeYk-T1znfe6wQRT1YPUJjcvBg6tm942hT-36SUwmHJBq5x1lXQU3RBlwMZVmx5ogdjX5zt2toBDvpwtRfleBKkmC2y67XoGnuQRpVSnFmLs0qrQ1OExriBqWHRAkSw66_Vm916xuup2E2DKSkCc48AAj3El-u7IdK6ytSqFWPTz9Cv6pRjTMUBuzzTWTmLKak1AqblBSbpk3IFhv75goEOEcTDNGq71XsHvBINnuyr4mygpU9LCAFXBEqDBo8NU0NqrXRnTCYAcwphQ6ab0lVR8vMu55M3pma2Xer4op_u2oy0U4AeVgcaZBnCtAXDdPBLKaGZbnMIkSijdhwNQe8fSGM5nCRI_4ZJJLmndn7Mkgh54ZXwdZCpLN3iXCMUwR-nowoPyziA00LHLsWqpNh60sPptTwaqQotRbJ9n4bGiWjYCdbixZjof-NhB1IjmH15LetLfk_PXnjn5TU5vCVXESfllG5V7kIuosUPASztFv7vUiQeU8GnTacfxEOW0z8XhnOy_gHKnnsiMCbTUzxB5IcIOG9LDWPOTbfDMEqlBF3gkdegPpxnHroGT_wd7z6-K1ZTRNJ6W3vrtoj3Hb1TXFEsvvghm0707mq5HY3Lx7WfsHR6POqGAg1nsCILc_9WXjFTQ5nHxjyyq3ore7QMdf_qB1S7_ilBiZFTr-dEcUflGETXSSwQGzEJU4qJhtqaxxrBmK_ARrPUhQn_fxb6hpWMapkr9apxLVV7nQgUG_jiPhTE_jmxPa7MoP_txBjTKC_iiwPGA0ReeJDWMJtcazfapm4nDgcyrqBeDMuSZ_DmPpoEWF5rWZpfpmlovvu9l_0pDvNNOw3z3kJVl_G1odxEx9Pl14jM-lNaIvZ-RD8KXt5SHE3pM20sPWCLNfochXN35bdFNHce6kuPlqxC0iGnlBW-BzM4G0bXyIJe_d7_6GqYUQtvVJkcs7e8Q7BJ7AIJdM25cokWcmtMmtPHZ170EeEXxueFETDW0mEe2SKB7SaXiejtIPl9XFG1-osHRA5s0-ufqd_kmAKul-lOmIAGgx2b_AccfsWjuQi5HjPNHdTKHnqDcmHwMOkdDIBHwPBWHXb432DXky5VcC9dZhfEjXWbaJ2sKu_u4HELZFit8ZzSrt6MefqYzsBC35GM9MrPFs26W0gM7MxC2fnqChmvDwe58sNb0SliclhBL4qhJL7YEAgVGuoTMgoOvsh7PLhxo0xBG4FQMqQBk_uF6eGLcOjzzFzDKRur6k9f0NIW4MyjD_wX--XYIrqJa3o_a9KhYwaWLnsCmxYuQypcqPrSnsZ3fRjur8NrV0YTV2he8-z5aTxa_6zjOHVStKKcNsSav8sQ7Zo9NZxhGiPCOd0aoyHPflmsZIUFZZbiSgSopcu5lQdUI6is71yZfR3ujftBvurmV_WbUK7uwUVacoxEq_pTOUam4EUjcqdSrM-FRBbGRqz9crWohCp4FxoJH8qwBLtf4tWXB7kACCqeTX7qntnBGg09lTMIh63fpvHZIT5ey7dCXrEmmAnmdgwEWSoWpB0zEgEclCdaFz-F8bv710f-gf9oNEy4IEzE8MBcGCSqGSIb3DQEJFDEKHggAcABpAG4AZzAhBgkqhkiG9w0BCRUxFAQSVGltZSAxNjA1MTE3NDAzOTc3MIIEJAYJKoZIhvcNAQcGoIIEFTCCBBECAQAwggQKBgkqhkiG9w0BBwEwKQYKKoZIhvcNAQwBBjAbBBTljRa-mE78y4caoRqCW8uEDyMbfgIDAMNQgIID0Ca7qTuReGdAqr87l9i0JafmZU5QkxiUNdIJKG5MPIxL7x9cVTbdNFE7lQk5M9VpiI7bqalxVh-0cJLgColUXUG82cHtU6vUmWi7i8RkOMwPJ5Kea9TRa3fZe2M03jeC3sj41aIZlPj-Zow134lCy8L-NylMfiqhQ2Mmdy9yPrL3Gjhga7kI_6j_WnDTjp-CfZR5c0CiaQobkk-HJAgPsz93rYOOkOoKpjlNSuDdjz4wOtcaQ5krDIFF3pgIbkHVYRayXDhyiVHdh-SbAAWsg0gv-SEea9cTvJ_KLj6Rs2M3HAeyprg4A_s_qlUBdchLvdIP6FCWycnIKi5aq38d5Us98y4Z5xM0uRJNVdHbpJbWbY389cmvfbRO8VEzTI3A1nlJuOGhx01VBzIAIBV8dn3Sa4ZvsAuOIZPYNCkSDOCYzxAGohmsUcC0lB6ZymficvpvAC0DvgVgheCaeOVQP5MTPYkd_2XPDbGCZHsmgfqCudZz6qmR78Y0XaQeN2iF9MRvVwKkG1mWnm8C8sZXsJjiL2Rqt5oZGfNE2yDFx6NhNfzcGfwV0WAkBl8tel5okuxvnWlhu-hR_Bo-RuBWndoi8kQ4NfS78A43eTbpvAAf2NRZcyiDrLLFJSREm5kIorc8ni-rOFhAmcvHIxs2nIIEu9njpYA-ksMR4esYrL7MUiRyiwAWU6hQL1piemp-2Lgeh4yw_dVdy9aCISUGss3O0Wqdu6y9QXE76Lyu5UPYHgq1x1Q11dmvw-binMcKunI00_Qv2LaMOp0hhzDb159fNP_i0ndXQkM7LSVE3egpaLcP3rffgAgTT4H0Z8N7pkYqLBk9egy_DxA-BR0V8_dplVDGU8NKfx_8s-cFBeL-_IwnYRZtDqIzCo2PwK5PgQM26Zrsc6gHUvZj4B-dphvOEy4AEhOGyf25tanon0bI_V545qmYzthOtCeAhWPP-NaVZizzghvQ_FCSzH-wNaPdPTYbjjeRNivRIydp0MHUzqy3JZPfh5MqotOFJScRTVZK_yi2LSSti4-HOe0s8TLaFnSc7Xdfwqj611LmJMvXgU_0re4fSa7eMxQMjdN2oLEJNIvZt8e8MqnmbnMqKg3jySvjXBQ6GbHS36OcbMzlpvJzytx_4svENgaUrtciOaD8ihiGFEAllDUzoPxu0PHQmG-9LhD50sEFE1RtVP1KAAar1PeYhYHhoHPCUBkzuBOgfFgMdang9lVer9F3EbNJPAphC4DVMJRl9T_YUkjYG2ndrBOvY0ldv3MWfGEMlhno-SmJ0SpxP_MKcsmZlDcwPjAhMAkGBSsOAwIaBQAEFG8qr5VuuWgtFm9-_s5mSZFj7ViMBBR7pyC19mJ_7q3m0Gvz-XtYjf3TtAIDAYag",
+          "encryptedPassword": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4xLjIuMCJ9..e9omMSrDLRxYN9ntJV7Idw.-dY0FIpNw0tJacebmQt-7VjNFJmpvSTRA-uk9xSbcMI._eBCjTTQj9mdwDsXajouiw"
+        }
+      ]
+    },
+    {
+      "resourceType": "/keyPairs/sslServer/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "runtimeServerCertRef": {
+            "id": "vtcm75en83g6v1r87ytm7lihi",
+            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+          },
+          "adminConsoleCertRef": {
+            "id": "vtcm75en83g6v1r87ytm7lihi",
+            "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+          },
+          "activeRuntimeServerCerts": [
+            {
+              "id": "vtcm75en83g6v1r87ytm7lihi",
+              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            }
+          ],
+          "activeAdminConsoleCerts": [
+            {
+              "id": "vtcm75en83g6v1r87ytm7lihi",
+              "location": "https://localhost:9999/pf-admin-api/v1/keyPairs/sslServer/vtcm75en83g6v1r87ytm7lihi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "/keyPairs/oauthOpenIdConnect",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "staticJwksEnabled": false
+        }
+      ]
+    },
+    {
+      "resourceType": "/dataStores",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "type": "JDBC",
+          "id": "ProvisionerDS",
+          "maskAttributeValues": false,
+          "connectionUrl": "jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false",
+          "driverClass": "org.hsqldb.jdbcDriver",
+          "userName": "sa",
+          "encryptedPassword": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4xLjIuMCJ9..97TAxidzzsMQID4XezBuGg.Tr9It7W-U9TccOtpwiQUbw.AUaAaRSAmOSlMrg0wqQMzg",
+          "allowMultiValueAttributes": false,
+          "name": "ProvisionerDS (sa)",
+          "connectionUrlTags": [
+            {
+              "connectionUrl": "jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false",
+              "defaultSource": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "/notificationPublishers/settings",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/serverSettings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "contactInfo": {},
+          "rolesAndProtocols": {
+            "oauthRole": {
+              "enableOauth": true,
+              "enableOpenIdConnect": true
+            },
+            "idpRole": {
+              "enable": true,
+              "enableSaml11": true,
+              "enableSaml10": true,
+              "enableWsFed": true,
+              "enableWsTrust": true,
+              "saml20Profile": {
+                "enable": true
+              },
+              "enableOutboundProvisioning": true
+            },
+            "spRole": {
+              "enable": true,
+              "enableSaml11": true,
+              "enableSaml10": true,
+              "enableWsFed": true,
+              "enableWsTrust": true,
+              "saml20Profile": {
+                "enable": true,
+                "enableXASP": true
+              },
+              "enableInboundProvisioning": true,
+              "enableOpenIDConnect": true
+            },
+            "enableIdpDiscovery": true
+          },
+          "federationInfo": {
+            "baseUrl": "${PF_BASE_URL}",
+            "saml2EntityId": "evaluation",
+            "saml1xIssuerId": "",
+            "saml1xSourceId": "",
+            "wsfedRealm": ""
+          },
+          "notifications": {
+            "notifyAdminUserPasswordChanges": false
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/serverSettings/systemKeys",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "current": {
+            "creationDate": "2019-03-01T21:13:15.312Z",
+            "encryptedKeyData": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiI5LjIuMS4xIiwiemlwIjoiREVGIn0..6SfJ_hi31YjijxEO1TTcnA.ca0XHhzvRL3YmfEJ2MtQthtulK8_2xnxlpsw5PNFUTbFx2dtXPuvmTSH2gDzVtpm.Yj-wHXi6kT00ODQkbLTaGg"
+          },
+          "pending": {
+            "creationDate": "2019-03-01T21:13:15.314Z",
+            "encryptedKeyData": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiI5LjIuMS4xIiwiemlwIjoiREVGIn0..PZcrdh4AZS1dVsp-Y5HMsA.nq4wxFHF59s1NrPT91N2KaEGDVd6hD7YxXSLPtkMk_08K8SUKimCg9yDJv2vuV8T.yjFKHXEH2jZSEz2daDKaig"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/serverSettings/outboundProvisioning",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "dataStoreRef": {
+            "id": "ProvisionerDS",
+            "location": "https://localhost:9999/pf-admin-api/v1/dataStores/ProvisionerDS"
+          },
+          "synchronizationFrequency": 60
+        }
+      ]
+    },
+    {
+      "resourceType": "/administrativeAccounts",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "username": "Administrator",
+          "encryptedPassword": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMC4xLjIuMCJ9..Uy7P7sYR0ueIP2YCx3eaxw.3uZkgg5V83h32JH1XP2c2fTqu8XjtGK8n3a_Um1LGyqEkOEvCcjLENeXOKBxIAaPfBrnjiHWJEgEbw2NVdyqjg.a_0zU5kn5Xkmtw3qkdkkUQ",
+          "description": "Initial administrator user.",
+          "auditor": false,
+          "active": true,
+          "roles": [
+            "USER_ADMINISTRATOR",
+            "CRYPTO_ADMINISTRATOR",
+            "ADMINISTRATOR",
+            "EXPRESSION_ADMINISTRATOR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "/certificates/revocation/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "crlSettings": {
+            "treatNonRetrievableCrlAsRevoked": false,
+            "verifyCrlSignature": true,
+            "nextRetryMinsWhenResolveFailed": 1440,
+            "nextRetryMinsWhenNextUpdateInPast": 60
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/virtualHostNames",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "virtualHostNames": []
+        }
+      ]
+    },
+    {
+      "resourceType": "/redirectValidation",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "redirectValidationLocalSettings": {
+            "enableTargetResourceValidationForSSO": true,
+            "enableTargetResourceValidationForSLO": true,
+            "enableTargetResourceValidationForIdpDiscovery": true,
+            "enableInErrorResourceValidation": true,
+            "whiteList": []
+          },
+          "redirectValidationPartnerSettings": {
+            "enableWreplyValidationSLO": true
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/incomingProxySettings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "proxyTerminatesHttpsConns": false
+        }
+      ]
+    },
+    {
+      "resourceType": "/protocolMetadata/lifetimeSettings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "cacheDuration": 1440,
+          "reloadDelay": 1440
+        }
+      ]
+    },
+    {
+      "resourceType": "/protocolMetadata/signingSettings",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/serviceAuthentication",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/oauth/accessTokenManagers/settings",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/kerberos/realms/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "forceTcp": false,
+          "debugLogOutput": false
+        }
+      ]
+    },
+    {
+      "resourceType": "/idp/defaultUrls",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "confirmIdpSlo": false,
+          "idpErrorMsg": "errorDetail.idpSsoFailure"
+        }
+      ]
+    },
+    {
+      "resourceType": "/sp/defaultUrls",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "confirmSlo": false
+        }
+      ]
+    },
+    {
+      "resourceType": "/session/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "trackAdapterSessionsForLogout": false,
+          "revokeUserSessionOnLogout": true,
+          "sessionRevocationLifetime": 490
+        }
+      ]
+    },
+    {
+      "resourceType": "/session/applicationSessionPolicy",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "idleTimeoutMins": 60,
+          "maxTimeoutMins": 480
+        }
+      ]
+    },
+    {
+      "resourceType": "/session/authenticationSessionPolicies/global",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "enableSessions": false,
+          "persistentSessions": false,
+          "idleTimeoutMins": 60,
+          "idleTimeoutDisplayUnit": "MINUTES",
+          "maxTimeoutMins": 480,
+          "maxTimeoutDisplayUnit": "MINUTES"
+        }
+      ]
+    },
+    {
+      "resourceType": "/oauth/authServerSettings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "defaultScopeDescription": "",
+          "scopes": [],
+          "scopeGroups": [],
+          "exclusiveScopes": [],
+          "exclusiveScopeGroups": [],
+          "authorizationCodeTimeout": 60,
+          "authorizationCodeEntropy": 30,
+          "persistentGrantLifetime": -1,
+          "persistentGrantLifetimeUnit": "DAYS",
+          "persistentGrantIdleTimeout": 30,
+          "persistentGrantIdleTimeoutTimeUnit": "DAYS",
+          "refreshTokenLength": 42,
+          "rollRefreshTokenValues": false,
+          "refreshRollingInterval": 0,
+          "persistentGrantReuseGrantTypes": [
+            "IMPLICIT"
+          ],
+          "persistentGrantContract": {
+            "extendedAttributes": [],
+            "coreAttributes": [
+              {
+                "name": "USER_KEY"
+              },
+              {
+                "name": "USER_NAME"
+              }
+            ]
+          },
+          "bypassAuthorizationForApprovedGrants": false,
+          "allowUnidentifiedClientROCreds": false,
+          "allowUnidentifiedClientExtensionGrants": false,
+          "tokenEndpointBaseUrl": "",
+          "userAuthorizationUrl": "",
+          "registeredAuthorizationPath": "",
+          "pendingAuthorizationTimeout": 600,
+          "bypassActivationCodeConfirmation": false,
+          "devicePollingInterval": 5,
+          "userAuthorizationConsentPageSetting": "INTERNAL",
+          "atmIdForOAuthGrantManagement": "",
+          "scopeForOAuthGrantManagement": "",
+          "allowedOrigins": [],
+          "trackUserSessionsForLogout": false
+        }
+      ]
+    },
+    {
+      "resourceType": "/oauth/cibaServerPolicy/settings",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/oauth/openIdConnect/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "sessionSettings": {
+            "trackUserSessionsForLogout": false,
+            "revokeUserSessionOnLogout": true,
+            "sessionRevocationLifetime": 490
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "/oauth/tokenExchange/processor/settings",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/oauth/tokenExchange/generator/settings",
+      "operationType": "SAVE",
+      "items": [
+        {}
+      ]
+    },
+    {
+      "resourceType": "/oauth/clientSettings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "clientMetadata": []
+        }
+      ]
+    },
+    {
+      "resourceType": "/authenticationApi/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "apiEnabled": false,
+          "enableApiDescriptions": true
+        }
+      ]
+    },
+    {
+      "resourceType": "/authenticationPolicies/default",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "failIfNoSelection": false,
+          "authnSelectionTrees": [],
+          "defaultAuthenticationSources": [],
+          "trackedHttpParameters": []
+        }
+      ]
+    },
+    {
+      "resourceType": "/authenticationPolicies/settings",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "enableIdpAuthnSelection": false,
+          "enableSpAuthnSelection": false
+        }
+      ]
+    }
+  ]
+}
