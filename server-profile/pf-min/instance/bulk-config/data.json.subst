@@ -216,7 +216,7 @@
               "saml20Profile": {
                 "enable": true
               },
-              "enableOutboundProvisioning": true
+              "enableOutboundProvisioning": false
             },
             "spRole": {
               "enable": true,
@@ -243,19 +243,6 @@
           "notifications": {
             "notifyAdminUserPasswordChanges": false
           }
-        }
-      ]
-    },
-    {
-      "resourceType": "/serverSettings/outboundProvisioning",
-      "operationType": "SAVE",
-      "items": [
-        {
-          "dataStoreRef": {
-            "id": "ProvisionerDS",
-            "location": "https://localhost:9999/pf-admin-api/v1/dataStores/ProvisionerDS"
-          },
-          "synchronizationFrequency": 60
         }
       ]
     },
