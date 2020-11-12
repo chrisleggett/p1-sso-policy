@@ -147,7 +147,7 @@
       "items": [
         {
           "id": "vtcm75en83g6v1r87ytm7lihi",
-          "filedata": "${PF_SSL_KEYPAIR}",
+          "fileData": "${PF_SSL_KEYPAIR}",
           "password": "${PF_SSL_KEYPAIR_PASSWORD}"
         }
       ]
