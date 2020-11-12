@@ -252,7 +252,7 @@
       "items": [
         {
           "username": "Administrator",
-          "password": "${PING_IDENTITY_PASSWORD}",
+          "password": "${PING_IDENTITY_NEW_PASSWORD}",
           "description": "Initial administrator user.",
           "auditor": false,
           "active": true,
